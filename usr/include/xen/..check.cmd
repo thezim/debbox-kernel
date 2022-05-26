@@ -1,0 +1,1 @@
+cmd_usr/include/xen/.check := for f in privcmd.h gntalloc.h gntdev.h evtchn.h ; do echo "./usr/include/xen/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/xen/.check

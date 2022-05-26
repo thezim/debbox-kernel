@@ -1,0 +1,1 @@
+cmd_usr/include/linux/raid/.check := for f in md_u.h md_p.h ; do echo "./usr/include/linux/raid/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/raid/.check

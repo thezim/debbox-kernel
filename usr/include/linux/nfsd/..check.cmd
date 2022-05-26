@@ -1,0 +1,1 @@
+cmd_usr/include/linux/nfsd/.check := for f in nfsfh.h debug.h stats.h cld.h export.h ; do echo "./usr/include/linux/nfsd/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/nfsd/.check

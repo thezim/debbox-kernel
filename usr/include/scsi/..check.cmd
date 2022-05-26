@@ -1,0 +1,1 @@
+cmd_usr/include/scsi/.check := for f in cxlflash_ioctl.h scsi_netlink.h scsi_netlink_fc.h scsi_bsg_fc.h ; do echo "./usr/include/scsi/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/scsi/.check

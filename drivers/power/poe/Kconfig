@@ -1,0 +1,6 @@
+
+config PSE_PD69101
+        tristate "PSE PD69101 controller"
+	help
+	  Say Y here to enable the PSE driver.
+

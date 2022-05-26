@@ -1,0 +1,1 @@
+cmd_usr/include/linux/sched/.check := for f in types.h ; do echo "./usr/include/linux/sched/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/sched/.check

@@ -1,0 +1,1 @@
+cmd_usr/include/linux/netfilter/ipset/.check := for f in ip_set.h ip_set_list.h ip_set_hash.h ip_set_bitmap.h ; do echo "./usr/include/linux/netfilter/ipset/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/netfilter/ipset/.check

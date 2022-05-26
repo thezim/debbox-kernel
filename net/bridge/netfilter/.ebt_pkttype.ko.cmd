@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_pkttype.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o net/bridge/netfilter/ebt_pkttype.ko net/bridge/netfilter/ebt_pkttype.o net/bridge/netfilter/ebt_pkttype.mod.o ;  true

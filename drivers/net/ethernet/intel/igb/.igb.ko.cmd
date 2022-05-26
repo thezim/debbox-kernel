@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/igb/igb.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/ethernet/intel/igb/igb.ko drivers/net/ethernet/intel/igb/igb.o drivers/net/ethernet/intel/igb/igb.mod.o ;  true

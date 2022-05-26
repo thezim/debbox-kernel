@@ -1,0 +1,1 @@
+cmd_usr/include/linux/byteorder/.check := for f in big_endian.h little_endian.h ; do echo "./usr/include/linux/byteorder/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/byteorder/.check

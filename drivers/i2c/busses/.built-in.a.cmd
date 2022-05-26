@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/built-in.a := rm -f drivers/i2c/busses/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/i2c/busses/built-in.a drivers/i2c/busses/i2c-designware-common.o drivers/i2c/busses/i2c-designware-master.o drivers/i2c/busses/i2c-designware-platdrv.o

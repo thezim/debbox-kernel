@@ -1,0 +1,1 @@
+cmd_drivers/ata/sata_sil24.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/ata/sata_sil24.ko drivers/ata/sata_sil24.o drivers/ata/sata_sil24.mod.o ;  true

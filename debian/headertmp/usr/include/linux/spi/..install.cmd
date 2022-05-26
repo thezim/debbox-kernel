@@ -1,0 +1,1 @@
+cmd_debian/headertmp/usr/include/linux/spi/.install := /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/spi ./include/uapi/linux/spi spidev.h; /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/spi ./include/generated/uapi/linux/spi ; touch debian/headertmp/usr/include/linux/spi/.install

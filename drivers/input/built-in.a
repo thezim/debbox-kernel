@@ -1,0 +1,21 @@
+!<thin>
+//                                              124       `
+input.o/
+input-compat.o/
+input-mt.o/
+ff-core.o/
+input-leds.o/
+mousedev.o/
+evdev.o/
+keyboard/atkbd.o/
+keyboard/gpio_keys.o/
+
+/0              0           0     0     644     57632     `
+/9              0           0     0     644     3568      `
+/25             0           0     0     644     9872      `
+/37             0           0     0     644     7672      `
+/48             0           0     0     644     7104      `
+/62             0           0     0     644     21752     `
+/74             0           0     0     644     24216     `
+/83             0           0     0     644     36760     `
+/101            0           0     0     644     20560     `

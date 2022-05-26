@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/ixgbevf/ixgbevf.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/ethernet/intel/ixgbevf/ixgbevf.ko drivers/net/ethernet/intel/ixgbevf/ixgbevf.o drivers/net/ethernet/intel/ixgbevf/ixgbevf.mod.o ;  true

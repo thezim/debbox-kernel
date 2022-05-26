@@ -1,0 +1,1 @@
+cmd_debian/headertmp/usr/include/linux/sched/.install := /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/sched ./include/uapi/linux/sched types.h; /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/sched ./include/generated/uapi/linux/sched ; touch debian/headertmp/usr/include/linux/sched/.install

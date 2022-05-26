@@ -1,0 +1,1 @@
+cmd_net/sched/cls_fw.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o net/sched/cls_fw.ko net/sched/cls_fw.o net/sched/cls_fw.mod.o ;  true

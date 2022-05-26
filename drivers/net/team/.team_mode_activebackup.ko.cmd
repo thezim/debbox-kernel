@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_activebackup.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/team/team_mode_activebackup.ko drivers/net/team/team_mode_activebackup.o drivers/net/team/team_mode_activebackup.mod.o ;  true

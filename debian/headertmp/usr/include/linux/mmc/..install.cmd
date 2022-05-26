@@ -1,0 +1,1 @@
+cmd_debian/headertmp/usr/include/linux/mmc/.install := /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/mmc ./include/uapi/linux/mmc ioctl.h; /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/mmc ./include/generated/uapi/linux/mmc ; touch debian/headertmp/usr/include/linux/mmc/.install

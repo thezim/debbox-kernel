@@ -1,0 +1,1 @@
+cmd_drivers/block/loop.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/block/loop.ko drivers/block/loop.o drivers/block/loop.mod.o ;  true

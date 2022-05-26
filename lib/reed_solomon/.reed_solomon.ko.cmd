@@ -1,0 +1,1 @@
+cmd_lib/reed_solomon/reed_solomon.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o lib/reed_solomon/reed_solomon.ko lib/reed_solomon/reed_solomon.o lib/reed_solomon/reed_solomon.mod.o ;  true

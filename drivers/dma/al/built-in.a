@@ -1,0 +1,24 @@
+!<thin>
+//                                              210       `
+al_dma.o/
+al_dma_core.o/
+al_dma_cleanup.o/
+al_dma_sysfs.o/
+al_dma_prep_interrupt.o/
+al_dma_prep_memcpy.o/
+al_dma_prep_memset.o/
+al_dma_prep_xor.o/
+al_dma_prep_xor_val.o/
+al_dma_prep_pq.o/
+al_dma_prep_pq_val.o/
+/0              0           0     0     644     7472      `
+/10             0           0     0     644     29768     `
+/25             0           0     0     644     3104      `
+/43             0           0     0     644     9944      `
+/59             0           0     0     644     2792      `
+/84             0           0     0     644     3016      `
+/106            0           0     0     644     2960      `
+/128            0           0     0     644     3784      `
+/147            0           0     0     644     3912      `
+/170            0           0     0     644     4168      `
+/188            0           0     0     644     4480      `

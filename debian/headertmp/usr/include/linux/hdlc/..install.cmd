@@ -1,0 +1,1 @@
+cmd_debian/headertmp/usr/include/linux/hdlc/.install := /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/hdlc ./include/uapi/linux/hdlc ioctl.h; /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/hdlc ./include/generated/uapi/linux/hdlc ; touch debian/headertmp/usr/include/linux/hdlc/.install

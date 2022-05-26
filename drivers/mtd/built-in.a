@@ -1,0 +1,49 @@
+!<thin>
+//                                              424       `
+mtdcore.o/
+mtdsuper.o/
+mtdconcat.o/
+mtdpart.o/
+mtdchar.o/
+ofpart.o/
+mtd_blkdevs.o/
+mtdblock.o/
+chips/chipreg.o/
+devices/m25p80.o/
+nand/raw/nand_base.o/
+nand/raw/nand_bbt.o/
+nand/raw/nand_timings.o/
+nand/raw/nand_ids.o/
+nand/raw/nand_amd.o/
+nand/raw/nand_hynix.o/
+nand/raw/nand_macronix.o/
+nand/raw/nand_micron.o/
+nand/raw/nand_samsung.o/
+nand/raw/nand_toshiba.o/
+nand/raw/nand_ecc.o/
+nand/raw/al_nand.o/
+spi-nor/spi-nor.o/
+
+/0              0           0     0     644     50840     `
+/11             0           0     0     644     4488      `
+/23             0           0     0     644     11960     `
+/36             0           0     0     644     21232     `
+/47             0           0     0     644     16136     `
+/58             0           0     0     644     7000      `
+/68             0           0     0     644     16512     `
+/83             0           0     0     644     6416      `
+/95             0           0     0     644     5336      `
+/112            0           0     0     644     9168      `
+/130            0           0     0     644     84112     `
+/152            0           0     0     644     15888     `
+/173            0           0     0     644     4168      `
+/198            0           0     0     644     10816     `
+/219            0           0     0     644     2392      `
+/240            0           0     0     644     7832      `
+/263           /0           0     0     644     2832      `
+/289            0           0     0     644     6960      `
+/313            0           0     0     644     3576      `
+/338            0           0     0     644     3200      `
+/363            0           0     0     644     6384      `
+/384            0           0     0     644     17568     `
+/404            0           0     0     644     38576     `

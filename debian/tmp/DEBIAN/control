@@ -1,0 +1,12 @@
+Package: linux-image-4.19.152-ui-alpine
+Source: linux-4.19.152-ui-alpine
+Version: 4.19.152
+Architecture: arm64
+Maintainer: Ubiquiti Networks, Inc. Support <support@ubnt.com>
+Installed-Size: 12151
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.19.152-ui-alpine
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.152-ui-alpine.

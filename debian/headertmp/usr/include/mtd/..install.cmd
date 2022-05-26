@@ -1,0 +1,1 @@
+cmd_debian/headertmp/usr/include/mtd/.install := /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/mtd ./include/uapi/mtd ubi-user.h mtd-abi.h inftl-user.h mtd-user.h nftl-user.h; /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/mtd ./include/generated/uapi/mtd ; touch debian/headertmp/usr/include/mtd/.install

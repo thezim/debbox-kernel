@@ -1,0 +1,14 @@
+!<thin>
+//                                              72        `
+transaction.o/
+commit.o/
+recovery.o/
+checkpoint.o/
+revoke.o/
+journal.o/
+/0              0           0     0     644     36848     `
+/15             0           0     0     644     17376     `
+/25             0           0     0     644     10632     `
+/37             0           0     0     644     9440      `
+/51             0           0     0     644     9984      `
+/61             0           0     0     644     69000     `

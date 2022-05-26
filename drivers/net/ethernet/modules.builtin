@@ -1,0 +1,2 @@
+kernel/drivers/net/ethernet/al/al_eth_drv.ko
+kernel/drivers/net/ethernet/cavium/common/cavium_ptp.ko

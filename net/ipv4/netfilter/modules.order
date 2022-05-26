@@ -1,0 +1,6 @@
+kernel/net/ipv4/netfilter/nf_socket_ipv4.ko
+kernel/net/ipv4/netfilter/nf_tproxy_ipv4.ko
+kernel/net/ipv4/netfilter/nf_log_ipv4.ko
+kernel/net/ipv4/netfilter/nf_nat_h323.ko
+kernel/net/ipv4/netfilter/nf_nat_pptp.ko
+kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko

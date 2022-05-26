@@ -1,0 +1,26 @@
+!<thin>
+//                                              218       `
+nf_nat_l3proto_ipv4.o/
+nf_nat_proto_icmp.o/
+nf_nat_masquerade_ipv4.o/
+nf_defrag_ipv4.o/
+nf_reject_ipv4.o/
+ip_tables.o/
+iptable_filter.o/
+iptable_mangle.o/
+iptable_nat.o/
+ipt_MASQUERADE.o/
+ipt_REJECT.o/
+ipt_SYNPROXY.o/
+/0              0           0     0     644     10880     `
+/23             0           0     0     644     2344      `
+/44             0           0     0     644     7424      `
+/70             0           0     0     644     5072      `
+/88             0           0     0     644     6168      `
+/106            0           0     0     644     23272     `
+/119            0           0     0     644     5480      `
+/137            0           0     0     644     5176      `
+/155            0           0     0     644     4976      `
+/170            0           0     0     644     4128      `
+/188            0           0     0     644     4880      `
+/202            0           0     0     644     10208     `

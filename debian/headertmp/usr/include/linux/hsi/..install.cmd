@@ -1,0 +1,1 @@
+cmd_debian/headertmp/usr/include/linux/hsi/.install := /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/hsi ./include/uapi/linux/hsi hsi_char.h cs-protocol.h; /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/hsi ./include/generated/uapi/linux/hsi ; touch debian/headertmp/usr/include/linux/hsi/.install

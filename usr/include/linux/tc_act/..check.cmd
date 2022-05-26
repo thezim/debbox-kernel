@@ -1,0 +1,1 @@
+cmd_usr/include/linux/tc_act/.check := for f in tc_csum.h tc_nat.h tc_ipt.h tc_bpf.h tc_connmark.h tc_sample.h tc_skbedit.h tc_pedit.h tc_defact.h tc_vlan.h tc_skbmod.h tc_tunnel_key.h tc_gact.h tc_ife.h tc_mirred.h ; do echo "./usr/include/linux/tc_act/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/tc_act/.check

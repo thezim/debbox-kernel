@@ -1,0 +1,8 @@
+kernel/lib/lzo/lzo_compress.ko
+kernel/lib/crc-ccitt.ko
+kernel/lib/xxhash.ko
+kernel/lib/reed_solomon/reed_solomon.ko
+kernel/lib/zstd/zstd_compress.ko
+kernel/lib/zstd/zstd_decompress.ko
+kernel/lib/zstd/zstd_compress.ko
+kernel/lib/zstd/zstd_decompress.ko

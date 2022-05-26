@@ -1,0 +1,2 @@
+kernel/drivers/rtc/rtc-ds1307.ko
+kernel/drivers/rtc/rtc-s35390a.ko

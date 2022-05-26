@@ -1,0 +1,1 @@
+cmd_usr/include/mtd/.check := for f in ubi-user.h mtd-abi.h inftl-user.h mtd-user.h nftl-user.h ; do echo "./usr/include/mtd/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/mtd/.check

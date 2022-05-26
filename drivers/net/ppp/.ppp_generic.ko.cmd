@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/ppp_generic.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/ppp/ppp_generic.ko drivers/net/ppp/ppp_generic.o drivers/net/ppp/ppp_generic.mod.o ;  true

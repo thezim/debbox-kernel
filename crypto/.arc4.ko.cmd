@@ -1,0 +1,1 @@
+cmd_crypto/arc4.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o crypto/arc4.ko crypto/arc4.o crypto/arc4.mod.o ;  true

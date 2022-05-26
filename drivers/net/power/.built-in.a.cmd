@@ -1,0 +1,1 @@
+cmd_drivers/net/power/built-in.a := rm -f drivers/net/power/built-in.a; aarch64-linux-gnu-ar rcSTPD drivers/net/power/built-in.a drivers/net/power/ubnt_poe_dev.o drivers/net/power/ubnt_poe_s2p.o drivers/net/power/bcm59111.o

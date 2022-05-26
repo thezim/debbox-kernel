@@ -1,0 +1,1 @@
+cmd_usr/include/linux/android/.check := for f in binder.h ; do echo "./usr/include/linux/android/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/android/.check

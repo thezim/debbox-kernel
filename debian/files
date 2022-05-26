@@ -1,0 +1,4 @@
+linux-4.19.152-ui-alpine_4.19.152_arm64.buildinfo kernel optional
+linux-headers-4.19.152-ui-alpine_4.19.152_arm64.deb kernel optional
+linux-image-4.19.152-ui-alpine_4.19.152_arm64.deb kernel optional
+linux-libc-dev_4.19.152_arm64.deb devel optional

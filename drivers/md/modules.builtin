@@ -1,0 +1,2 @@
+kernel/drivers/md/raid1.ko
+kernel/drivers/md/md-mod.ko

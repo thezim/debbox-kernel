@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/realtek/r8125.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/ethernet/realtek/r8125.ko drivers/net/ethernet/realtek/r8125.o drivers/net/ethernet/realtek/r8125.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_net/core/pktgen.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o net/core/pktgen.ko net/core/pktgen.o net/core/pktgen.mod.o ;  true

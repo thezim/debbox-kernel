@@ -1,0 +1,1 @@
+obj-$(CONFIG_PSE_PD69101)	+= pd69101.o

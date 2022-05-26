@@ -1,0 +1,1 @@
+cmd_usr/include/linux/hsi/.check := for f in hsi_char.h cs-protocol.h ; do echo "./usr/include/linux/hsi/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/hsi/.check

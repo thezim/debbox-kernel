@@ -1,0 +1,4 @@
+kernel/drivers/hwmon/hwmon.ko
+kernel/drivers/hwmon/hwmon-vid.ko
+kernel/drivers/hwmon/adt7475.ko
+kernel/drivers/hwmon/lm63.ko

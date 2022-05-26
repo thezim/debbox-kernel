@@ -1,0 +1,1 @@
+cmd_usr/include/linux/iio/.check := for f in events.h types.h ; do echo "./usr/include/linux/iio/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/iio/.check

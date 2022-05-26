@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_compress.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o lib/zstd/zstd_compress.ko lib/zstd/zstd_compress.o lib/zstd/zstd_compress.mod.o ;  true

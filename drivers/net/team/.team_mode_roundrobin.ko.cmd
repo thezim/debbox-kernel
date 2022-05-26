@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_roundrobin.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/team/team_mode_roundrobin.ko drivers/net/team/team_mode_roundrobin.o drivers/net/team/team_mode_roundrobin.mod.o ;  true

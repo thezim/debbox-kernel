@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_pptp.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o net/netfilter/nf_conntrack_pptp.ko net/netfilter/nf_conntrack_pptp.o net/netfilter/nf_conntrack_pptp.mod.o ;  true

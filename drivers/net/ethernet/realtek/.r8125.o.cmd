@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/realtek/r8125.o := aarch64-linux-gnu-ld  -EL  -maarch64linux    -r -o drivers/net/ethernet/realtek/r8125.o drivers/net/ethernet/realtek/r8125_n.o drivers/net/ethernet/realtek/rtl_eeprom.o drivers/net/ethernet/realtek/rtltool.o 

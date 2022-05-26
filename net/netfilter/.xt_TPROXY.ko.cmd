@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_TPROXY.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o net/netfilter/xt_TPROXY.ko net/netfilter/xt_TPROXY.o net/netfilter/xt_TPROXY.mod.o ;  true

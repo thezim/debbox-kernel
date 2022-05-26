@@ -1,0 +1,13 @@
+Package: linux-headers-4.19.152-ui-alpine
+Source: linux-4.19.152-ui-alpine
+Version: 4.19.152
+Architecture: arm64
+Maintainer: Ubiquiti Networks, Inc. Support <support@ubnt.com>
+Installed-Size: 69359
+Section: kernel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.19.152-ui-alpine on arm64
+ This package provides kernel header files for 4.19.152-ui-alpine on arm64
+ .
+ This is useful for people who need to build external modules

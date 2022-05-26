@@ -1,0 +1,1 @@
+cmd_crypto/pcrypt.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o crypto/pcrypt.ko crypto/pcrypt.o crypto/pcrypt.mod.o ;  true

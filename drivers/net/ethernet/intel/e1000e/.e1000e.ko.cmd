@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/intel/e1000e/e1000e.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/ethernet/intel/e1000e/e1000e.ko drivers/net/ethernet/intel/e1000e/e1000e.o drivers/net/ethernet/intel/e1000e/e1000e.mod.o ;  true

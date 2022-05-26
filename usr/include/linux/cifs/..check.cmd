@@ -1,0 +1,1 @@
+cmd_usr/include/linux/cifs/.check := for f in cifs_mount.h ; do echo "./usr/include/linux/cifs/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/cifs/.check

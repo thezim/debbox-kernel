@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_broadcast.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/team/team_mode_broadcast.ko drivers/net/team/team_mode_broadcast.o drivers/net/team/team_mode_broadcast.mod.o ;  true

@@ -1,0 +1,16 @@
+!<thin>
+//                                              142       `
+pci-internal-alpine.o/
+pci-external-alpine.o/
+pci-external-err-alpine.o/
+dwc/pcie-hisi.o/
+pci-thunder-ecam.o/
+pci-thunder-pem.o/
+pci-xgene.o/
+/0              0           0     0     644     6776      `
+/23             0           0     0     644     10296     `
+/46             0           0     0     644     15176     `
+/73             0           0     0     644     936       `
+/90             0           0     0     644     944       `
+/110            0           0     0     644     936       `
+/129            0           0     0     644     936       `

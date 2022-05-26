@@ -1,0 +1,201 @@
+!<thin>
+//                                              3920      `
+alpine_pbs.o/
+HAL/drivers/iofic/al_hal_iofic.o/
+HAL/drivers/udma/al_hal_udma_main.o/
+HAL/drivers/udma/al_hal_udma_config.o/
+HAL/drivers/udma/al_hal_udma_iofic.o/
+HAL/drivers/udma/al_hal_m2m_udma.o/
+HAL/drivers/udma/al_hal_udma_debug.o/
+HAL/drivers/udma/al_hal_msg_ipc.o/
+HAL/drivers/eth/al_hal_eth_main.o/
+HAL/drivers/eth/al_hal_eth_mac.o/
+HAL/drivers/eth/al_hal_eth_mac_internal.o/
+HAL/drivers/eth/al_hal_eth_mac_v1_v2.o/
+HAL/drivers/eth/al_hal_eth_mac_v3.o/
+HAL/drivers/eth/al_hal_eth_mac_v4.o/
+HAL/drivers/eth/al_hal_eth_kr.o/
+HAL/drivers/eth/al_hal_eth_epe.o/
+HAL/drivers/eth/al_hal_eth_common.o/
+HAL/drivers/eth/al_hal_eth_field.o/
+HAL/drivers/eth/al_hal_eth_rfw.o/
+HAL/drivers/ssm/al_hal_ssm.o/
+HAL/drivers/ssm/al_hal_ssm_raid.o/
+HAL/drivers/ssm/al_hal_ssm_crypto.o/
+HAL/drivers/ssm/al_hal_ssm_crypto_cfg.o/
+HAL/drivers/ssm/al_hal_ssm_crc_memcpy.o/
+HAL/drivers/serdes/al_hal_serdes_hssp.o/
+HAL/drivers/serdes/al_hal_serdes_25g.o/
+HAL/drivers/serdes/al_hal_serdes_avg.o/
+HAL/drivers/serdes/al_hal_serdes_hssp_init.o/
+HAL/drivers/serdes/al_hal_serdes_25g_init.o/
+HAL/drivers/serdes/al_hal_serdes_avg_init.o/
+HAL/drivers/serdes/al_hal_serdes_avg_utils.o/
+HAL/drivers/serdes/al_hal_serdes_snps.o/
+HAL/drivers/serdes/al_hal_serdes_snps_init.o/
+HAL/drivers/pcie/al_hal_pcie.o/
+HAL/drivers/pcie/al_hal_pcie_reg_ptr_set_rev1.o/
+HAL/drivers/pcie/al_hal_pcie_reg_ptr_set_rev2.o/
+HAL/drivers/pcie/al_hal_pcie_reg_ptr_set_rev3.o/
+HAL/drivers/pcie/al_hal_pcie_reg_ptr_set_rev4.o/
+HAL/drivers/pcie/al_hal_pcie_reg_ptr_set_rev5.o/
+HAL/drivers/pcie/al_hal_pcie_interrupts.o/
+HAL/ddr/src/al_hal_ddr_pmu.o/
+HAL/drivers/pbs/al_hal_pbs_utils.o/
+HAL/drivers/pbs/al_hal_muio_mux.o/
+HAL/drivers/pbs/al_hal_spi.o/
+HAL/drivers/pbs/al_hal_nand.o/
+HAL/drivers/pbs/al_hal_nand_dma.o/
+HAL/drivers/pbs/al_hal_bootstrap.o/
+HAL/drivers/pbs/al_hal_gpio.o/
+HAL/drivers/pbs/al_hal_sgpo.o/
+HAL/drivers/pbs/al_hal_i2c.o/
+HAL/drivers/pbs/al_hal_uart.o/
+HAL/drivers/pbs/al_hal_addr_map.o/
+HAL/drivers/pbs/al_hal_sbus.o/
+HAL/drivers/ring/al_hal_pll.o/
+HAL/drivers/sys_services/al_hal_timer.o/
+HAL/drivers/sys_services/al_hal_thermal_sensor.o/
+HAL/drivers/sys_services/al_hal_vt_sensor.o/
+HAL/drivers/sys_services/al_hal_watchdog.o/
+HAL/drivers/sys_services/al_hal_otp.o/
+HAL/drivers/sys_fabric/al_hal_sys_fabric_utils_v1_v2.o/
+HAL/drivers/sys_fabric/al_hal_sys_fabric_pasw.o/
+HAL/drivers/sys_fabric/al_hal_ccu_pmu.o/
+HAL/drivers/ring/al_hal_cmos.o/
+HAL/drivers/udma_fast/al_hal_udma_fast.o/
+HAL/drivers/io_fabric/al_hal_unit_adapter.o/
+HAL/drivers/pmdt/al_hal_pmdt_pmu.o/
+HAL/drivers/pmdt/al_hal_pmdt_axi_mon.o/
+HAL/drivers/pmdt/al_hal_pmdt_ela.o/
+HAL/drivers/pmdt/al_hal_pmdt_cctm.o/
+HAL/drivers/pmdt/al_hal_pmdt_ela_config.o/
+HAL/services/serdes/al_serdes.o/
+HAL/services/serdes/al_serdes_init.o/
+HAL/services/shared_mem/al_general_shared_data.o/
+HAL/services/eth/al_eth_lm_retimer.o/
+HAL/services/eth/internal/al_eth_lm_retimer_br210.o/
+HAL/services/eth/internal/al_eth_lm_retimer_br410.o/
+HAL/services/eth/internal/al_eth_lm_retimer_ds25.o/
+HAL/services/eth/al_init_eth_lm.o/
+HAL/services/eth/al_init_eth_kr.o/
+HAL/services/eth/al_eth_group_lm.o/
+HAL/services/eth/al_eth_switch.o/
+HAL/services/eth/al_eth_v4_lm.o/
+HAL/services/sys_fabric/al_init_sys_fabric.o/
+HAL/services/sys_fabric/al_init_neon_aarch32.o/
+HAL/services/trace/al_trace.o/
+HAL/services/err_events/al_err_events_common.o/
+HAL/services/err_events/al_err_events.o/
+HAL/services/err_events/al_err_events_udma.o/
+HAL/services/err_events/al_err_events_io_fabric.o/
+HAL/services/err_events/al_err_events_ssm.o/
+HAL/services/err_events/al_err_events_eth.o/
+HAL/services/err_events/al_err_events_eth_epe.o/
+HAL/services/err_events/al_err_events_pcie.o/
+HAL/services/otp_storage/al_otp_storage.o/
+HAL/services/otp_storage/al_otp_storage_layout_get_v2.o/
+HAL/services/otp_storage/al_otp_storage_layout_get_v3.o/
+HAL/services/uc_shared/al_uc_shared.o/
+HAL/ddr/src/al_hal_ddr.o/
+al_hal_export.o/
+
+/0              0           0     0     644     3288      `
+/14             0           0     0     644     10248     `
+/48             0           0     0     644     23744     `
+/85             0           0     0     644     21920     `
+/124            0           0     0     644     10704     `
+/162            0           0     0     644     3416      `
+/198            0           0     0     644     41064     `
+/236            0           0     0     644     3424      `
+/271            0           0     0     644     96960     `
+/306            0           0     0     644     22688     `
+/340            0           0     0     644     9872      `
+/383            0           0     0     644     20952     `
+/423            0           0     0     644     24016     `
+/460            0           0     0     644     34216     `
+/497           /0           0     0     644     16528     `
+/530            0           0     0     644     21976     `
+/564            0           0     0     644     19080     `
+/601            0           0     0     644     3424      `
+/637            0           0     0     644     8000      `
+/671            0           0     0     644     7360      `
+/701            0           0     0     644     9152      `
+/736            0           0     0     644     19632     `
+/773            0           0     0     644     15088     `
+/814            0           0     0     644     11832     `
+/855            0           0     0     644     53152     `
+/896            0           0     0     644     39544     `
+/936            0           0     0     644     32152     `
+/976            0           0     0     644     41224     `
+/1022           0           0     0     644     60584     `
+/1067           0           0     0     644     73264     `
+/1112           0           0     0     644     5424      `
+/1158           0           0     0     644     2736      `
+/1199           0           0     0     644     6024      `
+/1245           0           0     0     644     66120     `
+/1277           0           0     0     644     1688      `
+/1326           0           0     0     644     1808      `
+/1375           0           0     0     644     2168      `
+/1424           0           0     0     644     2528      `
+/1473           0           0     0     644     2528      `
+/1522           0           0     0     644     4648      `
+/1565           0           0     0     644     5680      `
+/1595           0           0     0     644     3320      `
+/1631           0           0     0     644     13816     `
+/1666           0           0     0     644     11440     `
+/1696           0           0     0     644     21120     `
+/1727           0           0     0     644     8376      `
+/1762           0           0     0     644     8168      `
+/1798           0           0     0     644     5544      `
+/1829           0           0     0     644     16912     `
+/1860           0           0     0     644     10928     `
+/1890           0           0     0     644     9568      `
+/1921           0           0     0     644     15680     `
+/1956           0           0     0     644     23192     `
+/1987           0           0     0     644     14048     `
+/2018           0           0     0     644     5480      `
+/2059           0           0     0     644     5480      `
+/2109           0           0     0     644     11952     `
+/2154           0           0     0     644     4240      `
+/2198           0           0     0     644     7576      `
+/2237           0           0     0     644     28232     `
+/2293           0           0     0     644     944       `
+/2342           0           0     0     644     3400      `
+/2383           0           0     0     644     9608      `
+/2415           0           0     0     644     1384      `
+/2457           0           0     0     644     12144     `
+/2502           0           0     0     644     20360     `
+/2538           0           0     0     644     11528     `
+/2578           0           0     0     644     15408     `
+/2614           0           0     0     644     10008     `
+/2651           0           0     0     644     4280      `
+/2694           0           0     0     644     1840      `
+/2727           0           0     0     644     13184     `
+/2765           0           0     0     644     3728      `
+/2815           0           0     0     644     2520      `
+/2853           0           0     0     644     3064      `
+/2906           0           0     0     644     5312      `
+/2959           0           0     0     644     7088      `
+/3011           0           0     0     644     27872     `
+/3046           0           0     0     644     7648      `
+/3081           0           0     0     644     12296     `
+/3117          /0           0     0     644     10672     `
+/3151           0           0     0     644     24568     `
+/3184           0           0     0     644     3752      `
+/3230           0           0     0     644     656       `
+/3278           0           0     0     644     4848      `
+/3309           0           0     0     644     13456     `
+/3357          /0           0     0     644     8360      `
+/3398           0           0     0     644     19008     `
+/3444           0           0     0     644     21416     `
+/3495           0           0     0     644     28240     `
+/3540           0           0     0     644     59232     `
+/3585           0           0     0     644     14872     `
+/3634           0           0     0     644     22200     `
+/3680           0           0     0     644     22968     `
+/3723           0           0     0     644     1240      `
+/3780           0           0     0     644     1480      `
+/3837           0           0     0     644     6144      `
+/3876           0           0     0     644     2592      `
+/3902          /0           0     0     644     177120    `

@@ -1,0 +1,1 @@
+cmd_usr/include/linux/genwqe/.check := for f in genwqe_card.h ; do echo "./usr/include/linux/genwqe/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/genwqe/.check

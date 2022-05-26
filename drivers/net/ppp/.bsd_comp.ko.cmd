@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/bsd_comp.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/ppp/bsd_comp.ko drivers/net/ppp/bsd_comp.o drivers/net/ppp/bsd_comp.mod.o ;  true

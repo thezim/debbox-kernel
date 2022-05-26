@@ -1,0 +1,16 @@
+!<thin>
+//                                              172       `
+reset/vexpress-poweroff.o/
+reset/alpine-reboot.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+ubnt-hdd-pwrctl-v2.o/
+poe/pd69101.o/
+/0              0           0     0     644     6552      `
+/27            /0           0     0     644     5672      `
+/50             0           0     0     644     32168     `
+/78             0           0     0     644     18080     `
+/107            0           0     0     644     3680      `
+/135            0           0     0     644     15136     `
+/157            0           0     0     644     11344     `

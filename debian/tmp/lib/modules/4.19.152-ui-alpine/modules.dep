@@ -1,0 +1,131 @@
+kernel/fs/pstore/ramoops.ko: kernel/lib/reed_solomon/reed_solomon.ko
+kernel/fs/squashfs/squashfs.ko:
+kernel/fs/efivarfs/efivarfs.ko:
+kernel/crypto/seqiv.ko:
+kernel/crypto/echainiv.ko:
+kernel/crypto/gf128mul.ko:
+kernel/crypto/ctr.ko:
+kernel/crypto/gcm.ko:
+kernel/crypto/pcrypt.ko:
+kernel/crypto/arc4.ko:
+kernel/crypto/lzo.ko: kernel/lib/lzo/lzo_compress.ko
+kernel/crypto/ansi_cprng.ko:
+kernel/crypto/ghash-generic.ko: kernel/crypto/gf128mul.ko
+kernel/crypto/zstd.ko: kernel/lib/zstd/zstd_compress.ko kernel/lib/zstd/zstd_decompress.ko kernel/lib/xxhash.ko
+kernel/drivers/block/loop.ko:
+kernel/drivers/block/zram/zram.ko:
+kernel/drivers/ata/sata_sil24.ko:
+kernel/drivers/net/ethernet/intel/e100.ko: kernel/drivers/net/mii.ko
+kernel/drivers/net/ethernet/intel/e1000/e1000.ko:
+kernel/drivers/net/ethernet/intel/e1000e/e1000e.ko:
+kernel/drivers/net/ethernet/intel/igb/igb.ko: kernel/drivers/i2c/algos/i2c-algo-bit.ko
+kernel/drivers/net/ethernet/intel/igbvf/igbvf.ko:
+kernel/drivers/net/ethernet/intel/ixgbe/ixgbe.ko: kernel/drivers/net/mdio.ko
+kernel/drivers/net/ethernet/intel/ixgbevf/ixgbevf.ko:
+kernel/drivers/net/ethernet/realtek/r8125.ko:
+kernel/drivers/net/bonding/bonding.ko:
+kernel/drivers/net/ifb.ko:
+kernel/drivers/net/mii.ko:
+kernel/drivers/net/mdio.ko:
+kernel/drivers/net/team/team.ko:
+kernel/drivers/net/team/team_mode_broadcast.ko: kernel/drivers/net/team/team.ko
+kernel/drivers/net/team/team_mode_roundrobin.ko: kernel/drivers/net/team/team.ko
+kernel/drivers/net/team/team_mode_random.ko: kernel/drivers/net/team/team.ko
+kernel/drivers/net/team/team_mode_activebackup.ko: kernel/drivers/net/team/team.ko
+kernel/drivers/net/team/team_mode_loadbalance.ko: kernel/drivers/net/team/team.ko
+kernel/drivers/net/ppp/ppp_generic.ko: kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_async.ko: kernel/lib/crc-ccitt.ko kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/bsd_comp.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_deflate.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/ppp_mppe.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/pppox.ko: kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/ppp/pppoe.ko: kernel/drivers/net/ppp/pppox.ko kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/drivers/net/slip/slhc.ko:
+kernel/drivers/i2c/algos/i2c-algo-bit.ko:
+kernel/net/core/pktgen.ko:
+kernel/net/sched/act_gact.ko:
+kernel/net/sched/act_mirred.ko:
+kernel/net/sched/act_ipt.ko:
+kernel/net/sched/act_connmark.ko:
+kernel/net/sched/sch_htb.ko:
+kernel/net/sched/sch_hfsc.ko:
+kernel/net/sched/sch_ingress.ko:
+kernel/net/sched/sch_sfq.ko:
+kernel/net/sched/sch_prio.ko:
+kernel/net/sched/sch_netem.ko:
+kernel/net/sched/sch_codel.ko:
+kernel/net/sched/sch_fq_codel.ko:
+kernel/net/sched/cls_u32.ko:
+kernel/net/sched/cls_fw.ko:
+kernel/net/sched/cls_basic.ko:
+kernel/net/netfilter/nf_conntrack_proto_gre.ko:
+kernel/net/netfilter/nf_conntrack_ftp.ko:
+kernel/net/netfilter/nf_conntrack_h323.ko:
+kernel/net/netfilter/nf_conntrack_pptp.ko: kernel/net/netfilter/nf_conntrack_proto_gre.ko
+kernel/net/netfilter/nf_conntrack_sip.ko:
+kernel/net/netfilter/nf_conntrack_tftp.ko:
+kernel/net/netfilter/nf_log_common.ko:
+kernel/net/netfilter/nf_nat_ftp.ko: kernel/net/netfilter/nf_conntrack_ftp.ko
+kernel/net/netfilter/nf_nat_sip.ko: kernel/net/netfilter/nf_conntrack_sip.ko
+kernel/net/netfilter/nf_nat_tftp.ko: kernel/net/netfilter/nf_conntrack_tftp.ko
+kernel/net/netfilter/xt_connmark.ko:
+kernel/net/netfilter/xt_LOG.ko:
+kernel/net/netfilter/xt_TPROXY.ko: kernel/net/ipv6/netfilter/nf_tproxy_ipv6.ko kernel/net/ipv4/netfilter/nf_tproxy_ipv4.ko
+kernel/net/netfilter/xt_TCPMSS.ko:
+kernel/net/netfilter/xt_conntrack.ko:
+kernel/net/netfilter/xt_dyn_random.ko:
+kernel/net/netfilter/xt_l2tp.ko:
+kernel/net/netfilter/xt_policy.ko:
+kernel/net/netfilter/xt_socket.ko: kernel/net/ipv4/netfilter/nf_socket_ipv4.ko kernel/net/ipv6/netfilter/nf_socket_ipv6.ko
+kernel/net/ipv4/netfilter/nf_socket_ipv4.ko:
+kernel/net/ipv4/netfilter/nf_tproxy_ipv4.ko:
+kernel/net/ipv4/netfilter/nf_log_ipv4.ko: kernel/net/netfilter/nf_log_common.ko
+kernel/net/ipv4/netfilter/nf_nat_h323.ko: kernel/net/netfilter/nf_conntrack_h323.ko
+kernel/net/ipv4/netfilter/nf_nat_pptp.ko: kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko kernel/net/netfilter/nf_conntrack_pptp.ko kernel/net/netfilter/nf_conntrack_proto_gre.ko
+kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko:
+kernel/net/ipv4/udp_tunnel.ko:
+kernel/net/ipv4/ah4.ko:
+kernel/net/ipv4/esp4.ko:
+kernel/net/ipv4/ipcomp.ko: kernel/net/xfrm/xfrm_ipcomp.ko
+kernel/net/ipv4/xfrm4_tunnel.ko:
+kernel/net/xfrm/xfrm_ipcomp.ko:
+kernel/net/ipv6/netfilter/nf_socket_ipv6.ko:
+kernel/net/ipv6/netfilter/nf_tproxy_ipv6.ko:
+kernel/net/ipv6/netfilter/nf_log_ipv6.ko: kernel/net/netfilter/nf_log_common.ko
+kernel/net/ipv6/ah6.ko:
+kernel/net/ipv6/esp6.ko:
+kernel/net/ipv6/ipcomp6.ko: kernel/net/ipv6/xfrm6_tunnel.ko kernel/net/ipv6/tunnel6.ko kernel/net/xfrm/xfrm_ipcomp.ko
+kernel/net/ipv6/xfrm6_tunnel.ko: kernel/net/ipv6/tunnel6.ko
+kernel/net/ipv6/tunnel6.ko:
+kernel/net/ipv6/ip6_udp_tunnel.ko:
+kernel/net/bridge/netfilter/ebtables.ko:
+kernel/net/bridge/netfilter/ebtable_broute.ko: kernel/net/bridge/netfilter/ebtables.ko
+kernel/net/bridge/netfilter/ebtable_filter.ko: kernel/net/bridge/netfilter/ebtables.ko
+kernel/net/bridge/netfilter/ebtable_nat.ko: kernel/net/bridge/netfilter/ebtables.ko
+kernel/net/bridge/netfilter/ebt_802_3.ko:
+kernel/net/bridge/netfilter/ebt_among.ko:
+kernel/net/bridge/netfilter/ebt_arp.ko:
+kernel/net/bridge/netfilter/ebt_ip.ko:
+kernel/net/bridge/netfilter/ebt_ip6.ko:
+kernel/net/bridge/netfilter/ebt_limit.ko:
+kernel/net/bridge/netfilter/ebt_mark_m.ko:
+kernel/net/bridge/netfilter/ebt_pkttype.ko:
+kernel/net/bridge/netfilter/ebt_stp.ko:
+kernel/net/bridge/netfilter/ebt_vlan.ko:
+kernel/net/bridge/netfilter/ebt_set.ko:
+kernel/net/bridge/netfilter/ebt_arpreply.ko:
+kernel/net/bridge/netfilter/ebt_mark.ko:
+kernel/net/bridge/netfilter/ebt_dnat.ko:
+kernel/net/bridge/netfilter/ebt_redirect.ko:
+kernel/net/bridge/netfilter/ebt_snat.ko:
+kernel/net/bridge/netfilter/ebt_log.ko:
+kernel/net/bridge/netfilter/ebt_nflog.ko:
+kernel/net/bridge/br_netfilter.ko:
+kernel/net/l2tp/l2tp_core.ko: kernel/net/ipv6/ip6_udp_tunnel.ko kernel/net/ipv4/udp_tunnel.ko
+kernel/net/l2tp/l2tp_ppp.ko: kernel/net/l2tp/l2tp_core.ko kernel/net/ipv6/ip6_udp_tunnel.ko kernel/net/ipv4/udp_tunnel.ko kernel/drivers/net/ppp/pppox.ko kernel/drivers/net/ppp/ppp_generic.ko kernel/drivers/net/slip/slhc.ko
+kernel/lib/lzo/lzo_compress.ko:
+kernel/lib/crc-ccitt.ko:
+kernel/lib/xxhash.ko:
+kernel/lib/reed_solomon/reed_solomon.ko:
+kernel/lib/zstd/zstd_compress.ko: kernel/lib/xxhash.ko
+kernel/lib/zstd/zstd_decompress.ko: kernel/lib/xxhash.ko

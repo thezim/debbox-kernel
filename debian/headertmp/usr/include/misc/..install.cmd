@@ -1,0 +1,1 @@
+cmd_debian/headertmp/usr/include/misc/.install := /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/misc ./include/uapi/misc cxl.h ocxl.h; /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/misc ./include/generated/uapi/misc ; touch debian/headertmp/usr/include/misc/.install

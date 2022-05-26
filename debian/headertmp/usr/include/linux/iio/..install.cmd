@@ -1,0 +1,1 @@
+cmd_debian/headertmp/usr/include/linux/iio/.install := /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/iio ./include/uapi/linux/iio events.h types.h; /bin/bash scripts/headers_install.sh ./debian/headertmp/usr/include/linux/iio ./include/generated/uapi/linux/iio ; touch debian/headertmp/usr/include/linux/iio/.install

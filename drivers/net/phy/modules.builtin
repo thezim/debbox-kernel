@@ -1,0 +1,6 @@
+kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/swconfig.ko
+kernel/drivers/net/phy/ar8216.ko
+kernel/drivers/net/phy/ar8327.ko
+kernel/drivers/net/phy/at803x.ko
+kernel/drivers/net/phy/fixed_phy.ko

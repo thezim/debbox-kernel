@@ -1,0 +1,1 @@
+cmd_usr/include/linux/usb/.check := for f in g_printer.h video.h ch9.h g_uvc.h audio.h tmc.h functionfs.h cdc.h charger.h cdc-wdm.h gadgetfs.h ch11.h midi.h ; do echo "./usr/include/linux/usb/$${f}"; done | xargs perl scripts/headers_check.pl ./usr/include arm64; touch usr/include/linux/usb/.check

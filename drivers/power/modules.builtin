@@ -1,0 +1,2 @@
+kernel/drivers/power/ubnt-hdd-pwrctl-v2.ko
+kernel/drivers/power/poe/pd69101.ko

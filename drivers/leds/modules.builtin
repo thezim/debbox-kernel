@@ -1,0 +1,5 @@
+kernel/drivers/leds/led-class.ko
+kernel/drivers/leds/leds-gpio.ko
+kernel/drivers/leds/trigger/ledtrig-timer.ko
+kernel/drivers/leds/trigger/ledtrig-oneshot.ko
+kernel/drivers/leds/trigger/ledtrig-ext.ko

@@ -1,0 +1,1 @@
+cmd_net/sched/sch_fq_codel.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o net/sched/sch_fq_codel.ko net/sched/sch_fq_codel.o net/sched/sch_fq_codel.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_loadbalance.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/net/team/team_mode_loadbalance.ko drivers/net/team/team_mode_loadbalance.o drivers/net/team/team_mode_loadbalance.mod.o ;  true

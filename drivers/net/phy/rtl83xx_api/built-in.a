@@ -1,0 +1,117 @@
+!<thin>
+//                                              1038      `
+acl.o/
+cpu.o/
+dot1x.o/
+eee.o/
+i2c.o/
+igmp.o/
+interrupt.o/
+l2.o/
+leaky.o/
+led.o/
+mirror.o/
+oam.o/
+port.o/
+ptp.o/
+qos.o/
+rate.o/
+rldp.o/
+rtk_switch.o/
+smi.o/
+stat.o/
+storm.o/
+svlan.o/
+trap.o/
+trunk.o/
+vlan.o/
+rtl8367c_asicdrv_acl.o/
+rtl8367c_asicdrv.o/
+rtl8367c_asicdrv_cputag.o/
+rtl8367c_asicdrv_dot1x.o/
+rtl8367c_asicdrv_eav.o/
+rtl8367c_asicdrv_eee.o/
+rtl8367c_asicdrv_fc.o/
+rtl8367c_asicdrv_green.o/
+rtl8367c_asicdrv_hsb.o/
+rtl8367c_asicdrv_i2c.o/
+rtl8367c_asicdrv_igmp.o/
+rtl8367c_asicdrv_inbwctrl.o/
+rtl8367c_asicdrv_interrupt.o/
+rtl8367c_asicdrv_led.o/
+rtl8367c_asicdrv_lut.o/
+rtl8367c_asicdrv_meter.o/
+rtl8367c_asicdrv_mib.o/
+rtl8367c_asicdrv_mirror.o/
+rtl8367c_asicdrv_misc.o/
+rtl8367c_asicdrv_oam.o/
+rtl8367c_asicdrv_phy.o/
+rtl8367c_asicdrv_port.o/
+rtl8367c_asicdrv_portIsolation.o/
+rtl8367c_asicdrv_qos.o/
+rtl8367c_asicdrv_rldp.o/
+rtl8367c_asicdrv_rma.o/
+rtl8367c_asicdrv_scheduling.o/
+rtl8367c_asicdrv_storm.o/
+rtl8367c_asicdrv_svlan.o/
+rtl8367c_asicdrv_trunking.o/
+rtl8367c_asicdrv_unknownMulticast.o/
+rtl8367c_asicdrv_vlan.o/
+
+/0              0           0     0     644     21320     `
+/7              0           0     0     644     7536      `
+/14             0           0     0     644     10664     `
+/23             0           0     0     644     3096      `
+/30             0           0     0     644     5584      `
+/37             0           0     0     644     21376     `
+/45             0           0     0     644     5120      `
+/58             0           0     0     644     31032     `
+/64             0           0     0     644     5136      `
+/73             0           0     0     644     10496     `
+/80             0           0     0     644     8104      `
+/90             0           0     0     644     4080      `
+/97             0           0     0     644     25712     `
+/105            0           0     0     644     9568      `
+/112            0           0     0     644     18544     `
+/119            0           0     0     644     8000      `
+/127            0           0     0     644     6768      `
+/135            0           0     0     644     21456     `
+/149            0           0     0     644     4800      `
+/156            0           0     0     644     7944      `
+/164            0           0     0     644     11528     `
+/173            0           0     0     644     24800     `
+/182            0           0     0     644     11920     `
+/190            0           0     0     644     8168      `
+/199            0           0     0     644     22944     `
+/207            0           0     0     644     7720      `
+/231            0           0     0     644     2248      `
+/251            0           0     0     644     3456      `
+/278            0           0     0     644     3568      `
+/304            0           0     0     644     7648      `
+/328            0           0     0     644     2224      `
+/352            0           0     0     644     9912      `
+/375            0           0     0     644     6360      `
+/401            0           0     0     644     1424      `
+/425            0           0     0     644     3704      `
+/449            0           0     0     644     12256     `
+/474            0           0     0     644     2224      `
+/503            0           0     0     644     2528      `
+/533            0           0     0     644     5768      `
+/557            0           0     0     644     10944     `
+/581            0           0     0     644     3360      `
+/607            0           0     0     644     4816      `
+/631            0           0     0     644     4192      `
+/658            0           0     0     644     2568      `
+/683            0           0     0     644     2296      `
+/707            0           0     0     644     2488      `
+/731            0           0     0     644     56952     `
+/756            0           0     0     644     1848      `
+/790            0           0     0     644     5720      `
+/814            0           0     0     644     5360      `
+/839            0           0     0     644     3680      `
+/863            0           0     0     644     4040      `
+/894            0           0     0     644     6560      `
+/920            0           0     0     644     6928      `
+/946            0           0     0     644     3504      `
+/975            0           0     0     644     2560      `
+/1012           0           0     0     644     9432      `

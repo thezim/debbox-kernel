@@ -1,0 +1,2 @@
+kernel/drivers/soc/alpine/hal.ko
+kernel/drivers/soc/alpine/al_hal_export.ko

@@ -1,0 +1,1 @@
+cmd_lib/lzo/lzo_compress.ko := aarch64-linux-gnu-ld -r  -EL  -maarch64linux -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o lib/lzo/lzo_compress.ko lib/lzo/lzo_compress.o lib/lzo/lzo_compress.mod.o ;  true

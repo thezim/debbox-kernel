@@ -1,0 +1,13 @@
+Package: linux-libc-dev
+Source: linux-4.19.152-ui-alpine
+Version: 4.19.152
+Architecture: arm64
+Maintainer: Ubiquiti Networks, Inc. Support <support@ubnt.com>
+Installed-Size: 5176
+Provides: linux-kernel-headers
+Section: devel
+Priority: optional
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.

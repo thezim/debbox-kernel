@@ -1,0 +1,69 @@
+!<thin>
+//                                              466       `
+access.o/
+bus.o/
+probe.o/
+host-bridge.o/
+remove.o/
+pci.o/
+pci-driver.o/
+search.o/
+pci-sysfs.o/
+rom.o/
+setup-res.o/
+irq.o/
+vpd.o/
+setup-bus.o/
+vc.o/
+mmap.o/
+setup-irq.o/
+proc.o/
+slot.o/
+of.o/
+quirks.o/
+msi.o/
+ats.o/
+iov.o/
+pci-label.o/
+syscall.o/
+controller/pci-internal-alpine.o/
+controller/pci-external-alpine.o/
+controller/pci-external-err-alpine.o/
+controller/dwc/pcie-hisi.o/
+controller/pci-thunder-ecam.o/
+controller/pci-thunder-pem.o/
+controller/pci-xgene.o/
+
+/0              0           0     0     644     29400     `
+/10             0           0     0     644     12064     `
+/17             0           0     0     644     54208     `
+/26             0           0     0     644     3760      `
+/41             0           0     0     644     6296      `
+/51             0           0     0     644     121520    `
+/58             0           0     0     644     23608     `
+/72             0           0     0     644     9832      `
+/82             0           0     0     644     33120     `
+/95             0           0     0     644     6296      `
+/102            0           0     0     644     10776     `
+/115            0           0     0     644     4944      `
+/122            0           0     0     644     14544     `
+/129            0           0     0     644     28752     `
+/142            0           0     0     644     6360      `
+/148            0           0     0     644     1680      `
+/156            0           0     0     644     1512      `
+/169            0           0     0     644     10840     `
+/177            0           0     0     644     10664     `
+/185            0           0     0     644     15440     `
+/191            0           0     0     644     138568    `
+/201            0           0     0     644     30792     `
+/208            0           0     0     644     5216      `
+/215            0           0     0     644     17736     `
+/222            0           0     0     644     3216      `
+/235            0           0     0     644     4880      `
+/246            0           0     0     644     6776      `
+/280            0           0     0     644     10296     `
+/314            0           0     0     644     15176     `
+/352            0           0     0     644     936       `
+/380            0           0     0     644     944       `
+/411            0           0     0     644     936       `
+/441            0           0     0     644     936       `
